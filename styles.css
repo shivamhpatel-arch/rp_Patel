@@ -10,11 +10,11 @@
 }
 
 .authors{
-    background-color: #4bb074;
+    background-color: #c4e5d1;
 }
 
 .body{
-    background-color: rgb(176, 190, 178);
+    background-color: rgb(9, 56, 24);
 }
 
 .chartjs-sample{
@@ -52,7 +52,7 @@
 }
 
 .procedure{
-    background-color: #4bb074;
+    background-color: #c4e5d1;
     padding: 1px;
 }
 
@@ -96,4 +96,8 @@
 .hover-underline-animation:hover:after {
     transform: scaleX(1);
     /*transform-origin: bottom left;*/
+}
+
+* {
+    font-family: Georgia;
 }
