@@ -6,15 +6,16 @@
 }
 
 .about-team{
-    color:rgb(8, 68, 17)
+    color:rgb(8, 68, 17);
+    font-weight: bold;
 }
 
 .authors{
-    background-color: #c4e5d1;
+    background-color: #d6e5d9;
 }
 
 .body{
-    background-color: rgb(9, 56, 24);
+    background-color: rgb(0, 0, 0);
 }
 
 .chartjs-sample{
@@ -30,17 +31,27 @@
 }
 
 .nav-background-color{   /* navbar background color */
-    background-color: #12652a;
+    background-color: #48805c;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
 }
 
 .nav-menu-item{               /* navbar link text properties */
-    font-size:25px;
+    font-size: 25px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .overview{
-    background-color: #4bb074;
+    background-color: #99d3a8;
+    color: #1a3a22;
+}
+
+.overview h1 {
+    color: #000000;
+}
+
+.overview img {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
 }
 
 .overview-left-padding{
@@ -57,7 +68,56 @@
 }
 
 .showcase{
-    background-color: #c4e5d1; /*#0096c7*/
+    background-color: #b3d4c4; /*#0096c7*/
+}
+
+.showcase img{
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.card.about {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card.about:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.card.about .card-title {
+    color: #0d3d18;
+    font-weight: bold;
+}
+
+.card.about h5 {
+    color: #2a7a45;
+}
+
+.procedure {
+    background-color: #e8f5ed;
+}
+
+.procedure h1 {
+    font-weight: bold;
+}
+
+.procedure table thead th {
+    padding: 14px;
+    text-align: center;
+}
+
+.procedure #step {
+    background-color: #c4e5d1;
+}
+
+.procedure table td {
+    text-align: left;
+}
+
+.procedure table img {
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 /* ----------------- ID CSS ----------------- */
